@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="604"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1444113760258.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Cu-n2-c4a">
+                    <rect key="frame" x="0.0" y="0.0" width="379" height="604"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="虚拟试衣间" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pb-hL-aYH">
+                    <rect key="frame" x="320" y="393" width="109" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3Cu-n2-c4a" secondAttribute="trailing" id="2rJ-wb-7vh"/>
+                <constraint firstItem="3Cu-n2-c4a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aEi-fl-paV"/>
+                <constraint firstAttribute="bottom" secondItem="3Cu-n2-c4a" secondAttribute="bottom" id="iJP-hs-wZ2"/>
+                <constraint firstItem="3Cu-n2-c4a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oou-vg-14l"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="8Pb-hL-aYH"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="246.5" y="286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1444113760258.jpg" width="808" height="1440"/>
+    </resources>
+</document>
